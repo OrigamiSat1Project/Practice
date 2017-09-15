@@ -41,7 +41,7 @@ enum SequenceFlow{
 }
 
 /// Global data
-const WAIT_TIME_FOR_REBOOT = 50000;
+const UINT WAIT_TIME_FOR_REBOOT = 50000;
 const ULONG MAX_MEMORY_REGION = 777;
 const UBYTE MEMORY_ADDRESS    = 0xb6;
 static UINT flowIndex = 0;
@@ -51,7 +51,7 @@ UINT HogeHoge = 0;
 
 /// Method
 void setBandOfTransceiver(double, double);
-void SaveToEEPROM(UBYTE, UBYTE[]);
+void saveToEEPROM(UBYTE, UBYTE[]);
 
 /// Main Program
 void int main(void) {
@@ -97,7 +97,7 @@ void int main(void) {
 /*
  *	set band of transceiver, then flow move on
  *	arg      :   Uplink band, Downklink band
- *	return   :   failure -> false, success -> true
+ *	return   :   failure -> 0, success -> 1
  *	TODO     :   setting band
  *	FIXME    :   not yet
  *	XXX      :   not yet
