@@ -31,7 +31,26 @@
 
 ## prepare goods
 * 寝袋
+From Lab
+* トング
+* 一文字
+* 皿
+* 箸
+* スプーン
 
+## borrowing goods
+* 鍋
+* 釜
+* 鉄板
+* まな板
+* 包丁
+* 炭
+* マキ
+
+## buying goods
+* 串
+* (箸)
+* (スプーン)
 ## file
 
 |filename|content|who|  
