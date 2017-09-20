@@ -31,7 +31,7 @@
 
 ## prepare goods
 * 寝袋
-* 水着
+* 水着  
 From Lab
 * トング
 * 一文字
