@@ -50,6 +50,7 @@ From Lab
 
 ## buying goods
 * 串
+* 着火剤
 * (箸)
 * (スプーン)
 ## file
