@@ -45,6 +45,7 @@
 ## prepare goods
 * 寝袋
 * 水着  
+* サンダル  
 From Lab
 * トング
 * 一文字
