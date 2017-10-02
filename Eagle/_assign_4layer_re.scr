@@ -51,19 +51,19 @@ ASSIGN CS+D 'DRC;';  # Executes DRC without opening DRC dialog. For dialog sk
 ASSIGN CS+V VALUE;
 ASSIGN C+R ROUTE;
 ASSIGN CS+R RIPUP;
-#ASSIGN A+R RATSNEST;
+ASSIGN A+R RATSNEST;
 ASSIGN C+H HOLE;
 #ASSIGN CS+S SMASH;
 
-ASSIGN C+1 'display none; display 1 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
-ASSIGN C+2 'display none; display 2 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
-ASSIGN C+3 'display none; display 15 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
-ASSIGN C+4 'display none; display 16 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
-ASSIGN C+5 'display none; display 1 2 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
+ASSIGN C+1 'display none; display 1 17 18 19 20 21 22 23 24 25 27 39 41 48 49 51;';
+ASSIGN C+2 'display none; display 2 17 18 19 20 21 22 23 24 43 44 45 48 49;';
+ASSIGN C+3 'display none; display 15 17 18 19 20 21 22 23 24 43 44 45 48 49;';
+ASSIGN C+4 'display none; display 16 17 18 19 20 21 22 23 24 26 28 40 42 48 49 52;';
+ASSIGN C+5 'display none; display 1 2 17 18 19 20 21 22 23 24 25 27 39 40 41 43 ;';
 ASSIGN C+6 'display none; display 2 15 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
-ASSIGN C+7 'display none; display 15 16 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
-ASSIGN C+8 'display none; display 1 16 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
-ASSIGN C+9 'display none; display 1 2 15 16 17 18 19 20 21 22 23 24 39 40 41 42 43 ;';
+ASSIGN C+7 'display none; display 15 16 17 18 19 20 21 22 23 24 26 28 39 40 41 42 43 ;';
+ASSIGN C+8 'display none; display 1 16 17 18 19 20 21 22 23 24 25 26 27 28 39 40 41 42 48 49 51 52 ;';
+ASSIGN C+9 'display none; display 20 21 22 41 42 43 44 45 46 47 49;';
 ASSIGN C+0  display all;
 
 ASSIGN A+1 'display none; display 1 17 18 19 20 21 23 25 39 41 43 48 49 51 121 125;';
